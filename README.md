@@ -5,6 +5,7 @@
 ## Scripts
 
 ``` bash
+npm tun test
 npm run lint
 npm run clean
 npm run compile
@@ -13,7 +14,6 @@ npm run prepare
 npm run pretest
 npm run posttest
 ``` 
-
 
 ## LICENSE
 [MIT](./LICENSE)
