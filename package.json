@@ -1,8 +1,17 @@
 {
   "name": "ts-project",
   "version": "1.0.0",
-  "description": "template project",
+  "description": "Template project",
+  "main": "dist/app.js",
   "scripts": {
+    "start": "node dist/app.js",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc -p tsconfig-prod.json",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -14,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/gmvbr/ts-project/issues"
   },
-  "homepage": "https://github.com/gmvbr/ts-project#readme"
+  "homepage": "https://github.com/gmvbr/ts-project#readme",
+  "devDependencies": {
+    "gts": "^3.1.0",
+    "typescript": "^4.0.3",
+    "@types/node": "^14.11.2"
+  }
 }
