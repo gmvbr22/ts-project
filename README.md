@@ -2,8 +2,6 @@
 
 [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
-__________________________
-
 ## Scripts
 
 ``` bash
@@ -18,5 +16,4 @@ npm run posttest
 
 
 ## LICENSE
-__________________________
 [MIT](./LICENSE)
